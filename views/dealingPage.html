@@ -1,0 +1,60 @@
+<div class="container">
+    <section class="introduction-stripe">
+        <h2 class="center">Director Dealings</h2>
+        <br>
+        <p class="center">Keep track of all major trades being made by company insiders</p>
+    </section>
+    <section class="content-stripe">
+        <h3>Recent Large Director Buys</h3>
+        <table class="table_data compact" id="directors_buying">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Volume</th>
+                <th>Price</th>
+                <th>Trade Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            	<tr ng-repeat="deals in buy">
+                  <td>{{deals.date}}</td>
+                  <td>{{deals.name}}</td>
+                  <td>{{deals.symbol}}</td>
+                  <td>{{deals.volume}}</td>
+                  <td>{{deals.price}}</td>
+                  <td>{{deals.value}}</td>
+              </tr>
+            </body>
+        </table>
+    </section>
+    <section class="content-stripe">
+        <hr class="heavy-line">
+    </section>
+    <section class="content-stripe">
+        <h3>Recent Large Director Sells</h3>
+        <table class="table_data compact" id="directors_selling">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Volume</th>
+                <th>Price</th>
+                <th>Trade Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            	<tr ng-repeat="deals in sell">
+                  <td>{{deals.date}}</td>
+                  <td>{{deals.name}}</td>
+                  <td>{{deals.symbol}}</td>
+                  <td>{{deals.volume}}</td>
+                  <td>{{deals.price}}</td>
+                  <td>{{deals.value}}</td>
+              </tr>
+            </tbody>
+        </table>
+    </section>
+</div>

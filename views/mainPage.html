@@ -1,0 +1,176 @@
+<div class="container">
+    <section class="introduction-stripe">
+        <div class="col-md-12">
+            <h1 class="center">FTSE Ventures</h1>
+            <h3 class="center">FTSE Ventures tries to predict how companies listed on the FTSE 100 & 250 will
+                perform.</h3>
+            <p class="center">To accomplish this our program examines the Analyst Recommendations, 50 & 200 Day Moving
+                Averages and Director Dealings.</p>
+            <p class="center">This is a simple first Beta version to test the concept and research how these parameters
+                effect a companies movement.</p>
+            <p class="center">Don't take the recommendations too seriously.</p>
+        </div>
+    </section>
+    <section class="content-stripe">
+        <hr class="heavy-line">
+    </section>
+
+    <section class="content-stripe">
+
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body table-responsive">
+                    <h3>FTSE 100</h3>
+                    <h2>
+                    	{{top_movers.ftse100_price}}
+                    	<span ng-if="top_movers.ftse100_price > top_movers.ftse100_previous_close">
+                    		<span class="increase">{{top_movers.ftse100_move}}</span>
+                    		<span class="increase">{{top_movers.ftse100_percent_change}}</span>
+                    	</span>
+                    	<span ng-if="top_movers.ftse100_price < top_movers.ftse100_previous_close">
+                    		<span class="decrease">{{top_movers.ftse100_move}}</span>
+                    		<span class="decrease">{{top_movers.ftse100_percent_change}}</span>
+                    	</span>
+                    </h2>
+                    <hr class="heavy-line">
+                    <h3 class="center">Top Movers</h3>
+                    <table class="table_data">
+                        <tr>
+                            <th>Name</th>
+                            <th>Symbol</th>
+                            <th>Price</th>
+                            <th>% Change</th>
+                        </tr>
+                        <tr ng-repeat="ftse100Movers in ftse100_table">
+                            <td>{{ftse100Movers.company_name}}</td>
+                            <td>{{ftse100Movers.symbol}}</td>
+                            <td>{{ftse100Movers.price}}</td>
+                            <td>{{ftse100Movers.percent}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body table-responsive">
+                    <h3>FTSE 250</h3>
+                    <h2>
+                    	{{top_movers.ftse250_price}}
+                    	<span ng-if="top_movers.ftse250_price > top_movers.ftse250_previous_close">
+                    		<span class="increase">{{top_movers.ftse250_move}}</span>
+                    		<span class="increase">{{top_movers.ftse250_percent_change}}</span>
+                    	</span>
+                    	<span ng-if="top_movers.ftse250_price < top_movers.ftse250_previous_close">
+                    		<span class="decrease">{{top_movers.ftse250_move}}</span>
+                    		<span class="decrease">{{top_movers.ftse250_percent_change}}</span>
+                    	</span>
+                    </h2>
+                    <hr class="heavy-line">
+                    <h3 class="center">Top Movers</h3>
+                    <table class="table_data">
+                        <tr>
+                            <th>Name</th>
+                            <th>Symbol</th>
+                            <th>Price</th>
+                            <th>% Change</th>
+                        </tr>
+                        <tr ng-repeat="ftse250Movers in ftse250_table">
+                            <td>{{ftse250Movers.company_name}}</td>
+                            <td>{{ftse250Movers.symbol}}</td>
+                            <td>{{ftse250Movers.price}}</td>
+                            <td>{{ftse250Movers.percent}}</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="content-stripe">
+        <hr class="heavy-line">
+    </section>
+
+    <section class="content-stripe">
+        <h3 class="center">Top recommendations from the FTSE 100 and 250.</h3>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body table-responsive">
+                    <table class="table_data">
+                        <tr>
+                            <th>FTSE 100 Listed Company Name</th>
+                            <th>Symbol</th>
+                            <th>Our Score</th>
+                        </tr>
+                        <tr ng-repeat="ftse100Top in top_ftse100_table">
+                            <td>{{ftse100Top.name}}</td>
+                            <td>{{ftse100Top.symbol}}</td>
+                            <td>{{ftse100Top.final_rating}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body table-responsive">
+                    <table class="table_data">
+                        <tr>
+                            <th>FTSE 250 Listed Company Name</th>
+                            <th>Symbol</th>
+                            <th>Our Score</th>
+                        </tr>
+                        <tr ng-repeat="ftse250Top in top_ftse250_table">
+                            <td>{{ftse250Top.name}}</td>
+                            <td>{{ftse250Top.symbol}}</td>
+                            <td>{{ftse250Top.final_rating}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-stripe">
+        <hr class="heavy-line">
+    </section>
+    <section class="content-stripe">
+        <h3 class="center">FTSE 100 and 250 companies to hold or sell.</h3>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body table-responsive">
+                    <table class="table_data">
+                        <tr>
+                            <th>FTSE 100 Listed Company Name</th>
+                            <th>Symbol</th>
+                            <th>Our Score</th>
+                        </tr>
+                        <tr ng-repeat="ftse100Sell in sell_ftse100_table">
+                            <td>{{ftse100Sell.name}}</td>
+                            <td>{{ftse100Sell.symbol}}</td>
+                            <td>{{ftse100Sell.final_rating}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body table-responsive">
+                    <table class="table_data">
+                        <tr>
+                            <th>FTSE 250 Listed Company Name</th>
+                            <th>Symbol</th>
+                            <th>Our Score</th>
+                        </tr>
+                        <tr ng-repeat="ftse250Sell in sell_ftse250_table">
+                            <td>{{ftse250Sell.name}}</td>
+                            <td>{{ftse250Sell.symbol}}</td>
+                            <td>{{ftse250Sell.final_rating}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>

@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e771c09-da76-4f56-9471-cd8bcb8638bd" name="Default" comment="" />
+    <list default="true" id="4e771c09-da76-4f56-9471-cd8bcb8638bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrdersController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TrackerController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/copytracker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sign_in.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/scheb/yahoo-finance-api" afterPath="$PROJECT_DIR$/vendor/scheb/yahoo-finance-api" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseController.php" afterPath="$PROJECT_DIR$/BaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DayChangeController.php" afterPath="$PROJECT_DIR$/DayChangeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectorDealingController.php" afterPath="$PROJECT_DIR$/DirectorDealingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectorRatingsClass.php" afterPath="$PROJECT_DIR$/DirectorRatingsClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectorRatingsController.php" afterPath="$PROJECT_DIR$/DirectorRatingsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helper.php" afterPath="$PROJECT_DIR$/Helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MarketAnalysisClass.php" afterPath="$PROJECT_DIR$/MarketAnalysisClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MarketAnalysisController.php" afterPath="$PROJECT_DIR$/MarketAnalysisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovingAverageClass.php" afterPath="$PROJECT_DIR$/MovingAverageClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovingAverageController.php" afterPath="$PROJECT_DIR$/MovingAverageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PriceTargetClass.php" afterPath="$PROJECT_DIR$/PriceTargetClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PriceTargetController.php" afterPath="$PROJECT_DIR$/PriceTargetController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TotalRatingsController.php" afterPath="$PROJECT_DIR$/TotalRatingsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class-search.php" afterPath="$PROJECT_DIR$/class-search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company_page.php" afterPath="$PROJECT_DIR$/company_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.php" afterPath="$PROJECT_DIR$/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dealings_page.php" afterPath="$PROJECT_DIR$/dealings_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_page.php" afterPath="$PROJECT_DIR$/main_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website.css" afterPath="$PROJECT_DIR$/website.css" />
+    </list>
     <ignored path="prototype2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,62 +57,93 @@
     <favorites_list name="prototype2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.272728">
+              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main_page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41787234">
+              <caret line="393" column="34" selection-start-line="393" selection-start-column="34" selection-end-line="393" selection-end-column="34" />
+              <folding>
+                <marker date="1475920276224" expanded="true" signature="3294:3351" placeholder="SELECT name ftse100" />
+                <marker date="1475920276224" expanded="true" signature="7944:8001" placeholder="SELECT name ftse250" />
+                <marker date="1475920276224" expanded="true" signature="11174:11271" placeholder="SELECT name,... ftse100" />
+                <marker date="1475920276224" expanded="true" signature="12992:13089" placeholder="SELECT name,... ftse250" />
+                <marker date="1475920276224" expanded="true" signature="15022:15141" placeholder="SELECT name,... ftse100" />
+                <marker date="1475920276224" expanded="true" signature="16863:16982" placeholder="SELECT name,... ftse250" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/oldercode/price_target_fix_250.php" />
-        <option value="$PROJECT_DIR$/oldercode/MarketAnalysis250Controller.php" />
-        <option value="$PROJECT_DIR$/day_range.php" />
-        <option value="$PROJECT_DIR$/director_update.php" />
-        <option value="$PROJECT_DIR$/director_dealings.php" />
-        <option value="$PROJECT_DIR$/MarketAnalysisClass.php" />
-        <option value="$PROJECT_DIR$/FunctionClass.php" />
-        <option value="$PROJECT_DIR$/FunctionsClass.php" />
-        <option value="$PROJECT_DIR$/oldercode/PriceTargetClass.php" />
-        <option value="$PROJECT_DIR$/total_100_rating.php" />
-        <option value="$PROJECT_DIR$/DirectorRatingsClass.php" />
-        <option value="$PROJECT_DIR$/MovingAverageClass.php" />
-        <option value="$PROJECT_DIR$/BaseController.php" />
-        <option value="$PROJECT_DIR$/db_connection.php" />
-        <option value="$PROJECT_DIR$/oldercode/math.php" />
-        <option value="$PROJECT_DIR$/PriceTargetClass.php" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/Helper.php" />
         <option value="$PROJECT_DIR$/views/dealings_page.php" />
         <option value="$PROJECT_DIR$/views/company_page.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/MainController.php" />
         <option value="$PROJECT_DIR$/views/main_page.php" />
         <option value="$PROJECT_DIR$/search.php" />
-        <option value="$PROJECT_DIR$/dealings_page.php" />
         <option value="$PROJECT_DIR$/scheb_test.php" />
         <option value="$PROJECT_DIR$/DayChangeClass.php" />
         <option value="$PROJECT_DIR$/CompanyController.php" />
         <option value="$PROJECT_DIR$/oldercode/testcode.php" />
         <option value="$PROJECT_DIR$/MainPageController.php" />
-        <option value="$PROJECT_DIR$/website.css" />
-        <option value="$PROJECT_DIR$/company_page.php" />
-        <option value="$PROJECT_DIR$/class-search.php" />
-        <option value="$PROJECT_DIR$/TotalRatingsController.php" />
-        <option value="$PROJECT_DIR$/DayChangeController.php" />
-        <option value="$PROJECT_DIR$/DirectorRatingsController.php" />
-        <option value="$PROJECT_DIR$/MarketAnalysisController.php" />
-        <option value="$PROJECT_DIR$/MovingAverageController.php" />
-        <option value="$PROJECT_DIR$/PriceTargetController.php" />
         <option value="$PROJECT_DIR$/oldercode/Alternate_Market_Analysis_Reuters.php" />
         <option value="$PROJECT_DIR$/oldercode/scheb_test.php" />
         <option value="$PROJECT_DIR$/oldercode/20_day_avg_function.php" />
         <option value="$PROJECT_DIR$/oldercode/Rev20Day.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/main_page.php" />
-        <option value="$PROJECT_DIR$/database.php" />
-        <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/views/footer.php" />
         <option value="$PROJECT_DIR$/views/header.php" />
-        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/MarketAnalysisClass.php" />
+        <option value="$PROJECT_DIR$/MovingAverageClass.php" />
+        <option value="$PROJECT_DIR$/crontrial.php" />
+        <option value="$PROJECT_DIR$/crontrial.html" />
+        <option value="$PROJECT_DIR$/cron_handler.php" />
+        <option value="$PROJECT_DIR$/BaseController.php" />
+        <option value="$PROJECT_DIR$/class-search.php" />
+        <option value="$PROJECT_DIR$/database.php" />
+        <option value="$PROJECT_DIR$/Helper.php" />
+        <option value="$PROJECT_DIR$/PriceTargetClass.php" />
+        <option value="$PROJECT_DIR$/DirectorRatingsClass.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/dealings_page.php" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/DirectorRatingsController.php" />
+        <option value="$PROJECT_DIR$/TotalRatingsController.php" />
+        <option value="$PROJECT_DIR$/MarketAnalysisController.php" />
+        <option value="$PROJECT_DIR$/MovingAverageController.php" />
+        <option value="$PROJECT_DIR$/PriceTargetController.php" />
+        <option value="$PROJECT_DIR$/about.php" />
+        <option value="$PROJECT_DIR$/company_page.php" />
+        <option value="$PROJECT_DIR$/sign_in.php" />
         <option value="$PROJECT_DIR$/DirectorDealingController.php" />
+        <option value="$PROJECT_DIR$/DayChangeController.php" />
+        <option value="$PROJECT_DIR$/website.css" />
+        <option value="$PROJECT_DIR$/portfolio.php" />
+        <option value="$PROJECT_DIR$/copytracker.php" />
+        <option value="$PROJECT_DIR$/TrackerController.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/OrdersController.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/main_page.php" />
       </list>
     </option>
   </component>
@@ -102,7 +169,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -120,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,26 +205,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftseventures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftseventures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yahoo-finance-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\ftseventures" />
+      <recent name="C:\wamp\www\prototype2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\ftseventures\views" />
       <recent name="C:\wamp\www\prototype2\oldercode" />
       <recent name="C:\wamp\www\prototype2" />
       <recent name="C:\wamp\www\prototype2\views" />
       <recent name="C:\wamp\www\prototype2\vendor\scheb" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\prototype2" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.20_day_avg_function.php">
@@ -237,10 +342,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22254059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19490741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -249,12 +355,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328654" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3996697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -269,10 +374,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22827125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19490741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -297,6 +402,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/scheb/yahoo-finance-api/Exception/ApiException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -339,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/scheb/yahoo-finance-api/ApiClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29973707">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -353,272 +472,368 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016170213">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/react/promise/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33272228">
+          <caret line="616" column="12" selection-start-line="616" selection-start-column="6" selection-end-line="616" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09991236">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.06654991">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.665206">
-          <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116564415">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4163015">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class-search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.46538123">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4995618">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <marker date="1464963072162" expanded="true" signature="4175:4277" placeholder="SELECT date,... " />
-            <marker date="1464963072162" expanded="true" signature="4826:5044" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompanyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2322524">
-          <caret line="44" column="93" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DayChangeClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28308502">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DayChangeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73269063">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <marker date="1464963436260" expanded="true" signature="1008:1224" placeholder="UPDATE ftse1... " />
-            <marker date="1464963436260" expanded="true" signature="1837:2053" placeholder="UPDATE ftse2... " />
-          </folding>
+        <state vertical-scroll-proportion="0.066608235">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dealings_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8659071">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2748936">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04170213">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2044702">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign_in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06468085">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.5574467">
+          <caret line="258" column="36" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.757576">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DayChangeClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarketAnalysisClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06468085">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PriceTargetClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.303032">
+          <caret line="346" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="346" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarketAnalysisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9753191">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectorRatingsClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016170213">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectorRatingsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7114894">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PriceTargetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84085107">
+          <caret line="52" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copytracker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54042554">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032340426">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TotalRatingsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84085107">
+          <caret line="52" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectorDealingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.09091">
+          <caret line="54" column="54" selection-start-line="53" selection-start-column="20" selection-end-line="55" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DayChangeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20340426">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46893618">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="116" selection-start-line="35" selection-start-column="116" selection-end-line="35" selection-end-column="116" />
           <folding>
-            <marker date="1464856859367" expanded="true" signature="643:773" placeholder="SELECT date,... " />
-            <marker date="1464856859367" expanded="true" signature="1205:1460" placeholder="..." />
-            <marker date="1464856859367" expanded="true" signature="1880:2011" placeholder="SELECT date,... " />
-            <marker date="1464856859367" expanded="true" signature="2443:2698" placeholder="..." />
+            <marker date="1468405561246" expanded="true" signature="163:197" placeholder="SELECT * FRO... users" />
+            <marker date="1468405561246" expanded="true" signature="1721:1747" placeholder="select * fro... track_risers" />
+            <marker date="1468405561246" expanded="true" signature="4696:4723" placeholder="select * fro... track_fallers" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04995618">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectorDealingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09991236">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-          <folding>
-            <marker date="1465236255285" expanded="true" signature="1724:1922" placeholder="select date,... " />
-            <marker date="1465236255285" expanded="true" signature="2070:2237" placeholder="insert into dealings... " />
-            <marker date="1465236255285" expanded="true" signature="2314:2530" placeholder="INSERT INTO dealings_company... " />
-            <marker date="1465236255285" expanded="true" signature="2358:2530" placeholder="SELECT deali... dealings" />
-            <marker date="1465236255285" expanded="true" signature="2444:2529" placeholder="select name dealings_company" />
-            <marker date="1465236255285" expanded="true" signature="2586:2713" placeholder="UPDATE deali... " />
-            <marker date="1465236255285" expanded="true" signature="3905:4119" placeholder="select date,... " />
-            <marker date="1465236255285" expanded="true" signature="4269:4449" placeholder="insert into dealings... " />
-            <marker date="1465236255285" expanded="true" signature="4526:4752" placeholder="INSERT INTO dealings_company... " />
-            <marker date="1465236255285" expanded="true" signature="4575:4752" placeholder="SELECT deali... dealings" />
-            <marker date="1465236255285" expanded="true" signature="4666:4751" placeholder="select name dealings_company" />
-            <marker date="1465236255285" expanded="true" signature="4807:4938" placeholder="UPDATE deali... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectorRatingsClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.681858">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectorRatingsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2655566">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <marker date="1464963617255" expanded="true" signature="3943:4161" placeholder="UPDATE ftse1... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9491674">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35670465">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.050832603">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.9957447">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="125" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="56" selection-start-line="85" selection-start-column="19" selection-end-line="88" selection-end-column="56" />
           <folding>
-            <marker date="1464804579906" expanded="true" signature="579:605" placeholder="SELECT symbo... ftse100" />
-            <marker date="1464804579906" expanded="true" signature="948:974" placeholder="SELECT symbo... ftse250" />
-            <marker date="1464804579906" expanded="true" signature="1323:1358" placeholder="SELECT symbo... dealings_company" />
+            <marker date="1468405501098" expanded="true" signature="410:465" placeholder="SELECT compa... track_risers" />
+            <marker date="1468405501098" expanded="true" signature="410:529" placeholder="SELECT compa... " />
+            <marker date="1468405501098" expanded="true" signature="472:528" placeholder="SELECT compa... track_fallers" />
+            <marker date="1468405501098" expanded="true" signature="947:1034" placeholder="SELECT curre... ftse100" />
+            <marker date="1468405501098" expanded="true" signature="947:1158" placeholder="SELECT curre... " />
+            <marker date="1468405501098" expanded="true" signature="1070:1157" placeholder="SELECT curre... ftse250" />
+            <marker date="1468405501098" expanded="true" signature="1722:1991" placeholder="update track... " />
+            <marker date="1468405501098" expanded="true" signature="2047:2317" placeholder="update track... " />
+            <marker date="1468405501098" expanded="true" signature="2445:2539" placeholder="SELECT id, n... ftse100" />
+            <marker date="1468405501098" expanded="true" signature="2445:2622" placeholder="SELECT id, n... " />
+            <marker date="1468405501098" expanded="true" signature="2548:2621" placeholder="SELECT id, n... ftse100" />
+            <marker date="1468405501098" expanded="true" signature="3150:3237" placeholder="SELECT compa... track_risers" />
+            <marker date="1468405501098" expanded="true" signature="3150:3333" placeholder="SELECT compa... " />
+            <marker date="1468405501098" expanded="true" signature="3244:3332" placeholder="SELECT compa... track_fallers" />
+            <marker date="1468405501098" expanded="true" signature="3646:4034" placeholder="INSERT INTO track_fallers... " />
+            <marker date="1468405501098" expanded="true" signature="4090:4181" placeholder="update track... " />
+            <marker date="1468405501098" expanded="true" signature="4298:4649" placeholder="INSERT INTO track_risers... " />
+            <marker date="1468405501098" expanded="true" signature="4705:4795" placeholder="update track... " />
+            <marker date="1468405501098" expanded="true" signature="4925:5019" placeholder="SELECT id, n... ftse250" />
+            <marker date="1468405501098" expanded="true" signature="4925:5102" placeholder="SELECT id, n... " />
+            <marker date="1468405501098" expanded="true" signature="5028:5101" placeholder="SELECT id, n... ftse250" />
+            <marker date="1468405501098" expanded="true" signature="5630:5717" placeholder="SELECT compa... track_risers" />
+            <marker date="1468405501098" expanded="true" signature="5630:5813" placeholder="SELECT compa... " />
+            <marker date="1468405501098" expanded="true" signature="5724:5812" placeholder="SELECT compa... track_fallers" />
+            <marker date="1468405501098" expanded="true" signature="6126:6514" placeholder="INSERT INTO track_fallers... " />
+            <marker date="1468405501098" expanded="true" signature="6570:6661" placeholder="update track... " />
+            <marker date="1468405501098" expanded="true" signature="6778:7129" placeholder="INSERT INTO track_risers... " />
+            <marker date="1468405501098" expanded="true" signature="7185:7275" placeholder="update track... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainPageController.php">
+    <entry file="file://$PROJECT_DIR$/OrdersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7493427">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.861525">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="-31.575758">
+          <caret line="113" column="2" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
           <folding>
-            <marker date="1465234429135" expanded="true" signature="9627:9724" placeholder="SELECT name,... ftse100" />
-            <marker date="1465234429135" expanded="true" signature="11350:11447" placeholder="SELECT name,... ftse250" />
-            <marker date="1465234429135" expanded="true" signature="12001:12214" placeholder="..." />
-            <marker date="1465234429135" expanded="true" signature="13168:13287" placeholder="SELECT name,... ftse100" />
-            <marker date="1465234429135" expanded="true" signature="13841:14054" placeholder="..." />
-            <marker date="1465234429135" expanded="true" signature="14796:14915" placeholder="SELECT name,... ftse250" />
-            <marker date="1465234429135" expanded="true" signature="15469:15682" placeholder="..." />
+            <element signature="e#7#190#0#PHP" expanded="true" />
+            <marker date="1468425332816" expanded="true" signature="666:715" placeholder="SELECT compa... " />
+            <marker date="1468425332816" expanded="true" signature="666:882" placeholder="SELECT compa... track_risers" />
+            <marker date="1468425332816" expanded="true" signature="666:914" placeholder="SELECT compa... track_risers" />
+            <marker date="1468425332816" expanded="true" signature="1745:2307" placeholder="INSERT INTO profit_loss... " />
+            <marker date="1468425332816" expanded="true" signature="1745:2308" placeholder="update track... " />
+            <marker date="1468425332816" expanded="true" signature="2436:2638" placeholder="SELECT compa... track_risers" />
+            <marker date="1468425332816" expanded="true" signature="3435:3977" placeholder="INSERT INTO track_change... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarketAnalysisClass.php">
+    <entry file="file://$PROJECT_DIR$/website.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0157757">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="62" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.016170213">
+          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarketAnalysisController.php">
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73269063">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.12680851">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/scheb/yahoo-finance-api/ApiClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.363636">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <marker date="1462960404635" expanded="true" signature="1814:1975" placeholder="select * fro... historicaldata" />
+            <marker date="1462960404635" expanded="true" signature="2372:2455" placeholder="select * fro... quotes" />
+            <marker date="1462960404635" expanded="true" signature="2861:2948" placeholder="select * fro... quoteslist" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MovingAverageClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6969697">
-          <caret line="22" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+        <state vertical-scroll-proportion="-34.242424">
+          <caret line="77" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MovingAverageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.81818">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="21" />
+        <state vertical-scroll-proportion="-27.545454">
+          <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PriceTargetClass.php">
+    <entry file="file://$PROJECT_DIR$/company_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7283087">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PriceTargetController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.757576">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-17.545454">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
           <folding>
-            <marker date="1464963965682" expanded="true" signature="1986:2140" placeholder="UPDATE ftse1... " />
-            <marker date="1464963965682" expanded="true" signature="3870:4024" placeholder="UPDATE ftse2... " />
+            <marker date="1467043911462" expanded="true" signature="531:586" placeholder="select id fr... ftse100" />
+            <marker date="1467043911462" expanded="true" signature="531:658" placeholder="select id fr... " />
+            <marker date="1467043911462" expanded="true" signature="602:657" placeholder="select id fr... ftse250" />
+            <marker date="1467043911462" expanded="true" signature="849:962" placeholder="select users... portfolio" />
+            <marker date="1467043911462" expanded="true" signature="1053:1236" placeholder="insert into portfolio... " />
+            <marker date="1467043911462" expanded="true" signature="6294:6396" placeholder="SELECT date,... " />
+            <marker date="1467043911462" expanded="true" signature="6945:7163" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_html_dom.php">
+    <entry file="file://$PROJECT_DIR$/CompanyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.663453">
-          <caret line="258" column="36" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04995618">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state vertical-scroll-proportion="-5.181818">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding>
-            <marker date="1464856217286" expanded="true" signature="201:304" placeholder="SELECT symbo... ftse100" />
-            <marker date="1464856217286" expanded="true" signature="201:424" placeholder="SELECT symbo... " />
-            <marker date="1464856217286" expanded="true" signature="312:415" placeholder="SELECT symbo... ftse250" />
+            <marker date="1464863190997" expanded="true" signature="3893:4025" placeholder="SELECT name,... ftse100" />
+            <marker date="1464863190997" expanded="true" signature="3893:4174" placeholder="SELECT name,... " />
+            <marker date="1464863190997" expanded="true" signature="4041:4173" placeholder="select name,... ftse250" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TotalRatingsController.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07624891">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="25" />
+        <state vertical-scroll-proportion="-30.272728">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41787234">
+          <caret line="393" column="34" selection-start-line="393" selection-start-column="34" selection-end-line="393" selection-end-column="34" />
+          <folding>
+            <marker date="1475920276224" expanded="true" signature="3294:3351" placeholder="SELECT name ftse100" />
+            <marker date="1475920276224" expanded="true" signature="7944:8001" placeholder="SELECT name ftse250" />
+            <marker date="1475920276224" expanded="true" signature="11174:11271" placeholder="SELECT name,... ftse100" />
+            <marker date="1475920276224" expanded="true" signature="12992:13089" placeholder="SELECT name,... ftse250" />
+            <marker date="1475920276224" expanded="true" signature="15022:15141" placeholder="SELECT name,... ftse100" />
+            <marker date="1475920276224" expanded="true" signature="16863:16982" placeholder="SELECT name,... ftse250" />
+          </folding>
         </state>
       </provider>
     </entry>
