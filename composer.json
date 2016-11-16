@@ -1,7 +1,0 @@
-{
-  "require": {
-    "guzzlehttp/guzzle": "~5.0",
-
-    "scheb/yahoo-finance-api": "dev-master"
-  }
-}
